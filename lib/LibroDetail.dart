@@ -1,3 +1,5 @@
+import 'dart:js_interop';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
@@ -20,7 +22,7 @@ class LibroDetail extends StatelessWidget {
             itemSize: 30.0,
             itemBuilder: (context, _) => const Icon(
               Icons.star,
-              color: Colors.red,
+              color: Colors.amber,
             )
         );
     }
